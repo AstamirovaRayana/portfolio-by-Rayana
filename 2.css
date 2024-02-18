@@ -1,0 +1,363 @@
+body {
+  font-family: "Candara Light"; color: #5e5e5e;  
+}
+  
+.aboutcontent {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    z-index: 1;
+}
+.aboutcontent a {
+    color: black;
+    padding: 12px 16px;
+    display: block;
+}
+
+.artcontent {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    z-index: 1;
+}
+.artcontent a {
+    color: black;
+    padding: 12px 16px;
+    display: block;
+}
+
+.infocontent {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    z-index: 1;
+}
+.infocontent a {
+    color: black;
+    padding: 12px 16px;
+
+    display: block;
+}
+
+.aboutt:hover .aboutcontent {display: block;}
+.artt:hover .artcontent {display: block;}
+.info:hover .infocontent {display: block;}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+   
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #4d4d4d;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #967f5e;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#main {
+    transition: margin-left .5s;
+    padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+
+.page-title {
+    text-align: center;
+    font-size: 30px;
+  }
+  
+  .slider-container {
+    position: relative;
+    width: 500px;
+    height: 700px;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+  
+  .slider {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .slider img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .prev-button,
+  .next-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+    border: none;
+    font-size: 24px;
+    color: white;
+  }
+  
+  .prev-button {
+    left: 10px;
+  }
+  
+  .next-button {
+    right: 10px;
+  }
+
+  h3{
+    font-size: 80px;
+  }
+
+  .inst a
+{
+    text-align: center;
+    font-size: 60px;
+    text-decoration: none;
+ color: #4d4d4d;
+    }
+    
+
+    .inst 
+{
+  text-align: center;
+  font-size: 60px;
+  text-decoration: none;
+color: #4d4d4d;
+    }
+
+    .ins a
+{
+    text-align: center;
+    font-size: 30px;
+    margin: 100px;
+    text-decoration: none;
+ color: #4d4d4d;
+    }
+    
+
+    
+
+
+    .alert {
+      padding: 20px;
+      background-color: #b8aa9a; /* Red */
+      color: white;
+      margin-left: 700px;
+      width: 500px;
+       font-size: 20px;
+  }
+  
+  /* The close button */
+  .closebtn {
+      margin-left: 15px;
+      color: white;
+      font-weight: bold;
+      float: right;
+     
+      line-height: 20px;
+      cursor: pointer;
+      transition: 0.3s;
+      font-family: "Candara Light";
+  }
+  
+  /* When moving the mouse over the close button */
+  .closebtn:hover {
+      color: black;
+  }
+
+
+  .slider1 {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .slider1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .prev-button1,
+  .next-button1 {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+    border: none;
+    font-size: 24px;
+    color: white;
+  }
+  
+  .prev-button1 {
+    left: 10px;
+  }
+  
+  .next-button1 {
+    right: 10px;
+  }
+
+
+
+
+  .slider2 {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .slider2 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .prev-button2,
+  .next-button2 {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+    border: none;
+    font-size: 24px;
+    color: white;
+  }
+  
+  .prev-button2 {
+    left: 10px;
+  }
+  
+  .next-button2 {
+    right: 10px;
+  }
+
+  .slider3 {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .slider3 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .prev-button3,
+  .next-button3 {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+    border: none;
+    font-size: 24px;
+    color: white;
+  }
+  
+  .prev-button3 {
+    left: 10px;
+  }
+  
+  .next-button3 {
+    right: 10px;
+  }
+
+
+
+  .slider4 {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .slider4 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .prev-button4,
+  .next-button4 {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+    border: none;
+    font-size: 24px;
+    color: white;
+  }
+  
+  .prev-button4 {
+    left: 10px;
+  }
+  
+  .next-button4 {
+    right: 10px;
+  }
+
+
+
+  .slider5 {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .slider5 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .prev-button5,
+  .next-button5 {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+    border: none;
+    font-size: 24px;
+    color: white;
+  }
+  
+  .prev-button5 {
+    left: 10px;
+  }
+  
+  .next-button5 {
+    right: 10px;
+  }
